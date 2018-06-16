@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Book Store Inventory</string>
+
+    <!-- Title for the activity to add a new book -->
+    <string name="editor_activity_title_new_book">Add a book</string>
+
+    <!-- Label for book details category of attributes in the editor -->
+    <string name="book_details">Book details</string>
+
+    <!-- Text hint for title field in the editor -->
+    <string name="hint_book_title">Title</string>
+
+    <!-- Text hint for author field in the editor -->
+    <string name="hint_book_author">Author</string>
+
+    <!-- Text hint for price field in the editor -->
+    <string name="hint_book_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor -->
+    <string name="hint_book_quantity">Quantity</string>
+
+    <!-- Label for supplier details category of attributes in the editor -->
+    <string name="supplier_details">Supplier details</string>
+
+    <!-- Text hint for supplier name field in the editor -->
+    <string name="hint_supplier_name">Name</string>
+
+    <!-- Text hint for supplier phone number in the editor -->
+    <string name="hint_supplier_phone_number">Phone number</string>
+
+    <!-- Label for editor menu option to save book and leave editor -->
+    <string name="action_save">Save</string>
+</resources>
