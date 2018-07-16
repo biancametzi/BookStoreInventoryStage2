@@ -4,6 +4,9 @@
     <!-- Title for the activity to add a new book -->
     <string name="editor_activity_title_new_book">Add a book</string>
 
+    <!-- Title for the activity to edit an existing book -->
+    <string name="editor_activity_title_edit_book">Edit book</string>
+
     <!-- Label for book details category of attributes in the editor -->
     <string name="book_details">Book details</string>
 
@@ -30,4 +33,79 @@
 
     <!-- Label for editor menu option to save book and leave editor -->
     <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overflow menu option that inserts fake book data into the app -->
+    <string name="action_insert_dummy_data">Insert dummy data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app -->
+    <string name="action_delete_all_entries">Delete all books</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Button text for the option to sell the current book -->
+    <string name="sale_book">Sale</string>
+
+    <!-- Toast message in editor when current book was successfully deleted -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted -->
+    <string name="editor_insert_book_successful">Book saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted -->
+    <string name="editor_insert_book_failed">Error with saving book</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted -->
+    <string name="editor_update_book_failed">Error with updating book</string>
+
+    <!-- Toast message in editor when current book was successfully updated -->
+    <string name="editor_update_book_successful">Book updated</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Title text for the empty view, which describes the owl library image -->
+    <string name="empty_view_title_text">You\'re library looks empty...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a book -->
+    <string name="empty_view_subtitle_text">To enjoy reading a book, please add one</string>
+
+    <!-- String for the Sale button -->
+    <string name="sale_book_successful">The book was sold</string>
+    <string name="sale_book_failed">An error was encountered when selling the book. Please try again!</string>
+    <string name="sale_book_no_quantity">The book has been sold out</string>
+
+    <!-- Strings required for book attributes -->
+    <string name="title_required">Book requires a title</string>
+    <string name="author_required">Book requires an author</string>
+    <string name="price_required">Book requires a price</string>
+    <string name="quantity_required">Book requires a quantity</string>
+    <string name="supplier_name_required">Book requires a supplier name</string>
+    <string name="supplier_phone_required">Book requires a supplier phone number</string>
+
+    <!-- Strings for the buttons in activity_editor.xml -->
+    <string name="quantity_increase">+</string>
+    <string name="quantity_decrease">-</string>
+    <string name="order_button">Order</string>
+
+    <!-- For the nagative values of the quantity -->
+    <string name="negative_quantity">Quantity must have a positive value</string>
 </resources>

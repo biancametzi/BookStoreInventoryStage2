@@ -28,4 +28,88 @@
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <!-- Style for an EditText Quantity field in the editor -->
+    <style name="QuantityFieldStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginRight">@dimen/edit_quantity_margin_right</item>
+        <item name="android:layout_marginEnd">@dimen/edit_quantity_margin_end</item>
+    </style>
+
+    <!-- Style for sale button -->
+    <style name="SaleButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:focusable">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for increase button of quantity -->
+    <style name="IncreaseButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_toEndOf">@id/edit_book_quantity</item>
+        <item name="android:layout_toRightOf">@id/edit_book_quantity</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Style for decrease button of quantity -->
+    <style name="DecreaseButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_toEndOf">@id/increase_quantity</item>
+        <item name="android:layout_toRightOf">@id/increase_quantity</item>
+        <item name="android:layout_marginStart">@dimen/button_margin_left</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_left</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Style for order button -->
+    <style name="OrderButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/order_margin_top</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Style for book labels in list_item.xml -->
+    <style name="BookLabel">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/bookListItem</item>
+    </style>
+
+    <!-- Style for book values in list_item.xml -->
+    <style name="BookValues">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/bookListItem</item>
+        <item name="android:layout_marginLeft">@dimen/book_values_margin</item>
+        <item name="android:layout_marginStart">@dimen/book_values_margin</item>
+    </style>
+
 </resources>

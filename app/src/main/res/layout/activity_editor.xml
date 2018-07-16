@@ -51,12 +51,27 @@
                     android:hint="@string/hint_book_price"
                     android:inputType="numberDecimal" />
 
-                <!-- Quantity field -->
-                <EditText
-                    android:id="@+id/edit_book_quantity"
-                    style="@style/EditorFieldStyle"
-                    android:hint="@string/hint_book_quantity"
-                    android:inputType="number" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- Quantity field -->
+                    <EditText
+                        android:id="@+id/edit_book_quantity"
+                        style="@style/QuantityFieldStyle"
+                        android:hint="@string/hint_book_quantity"
+                        android:inputType="number" />
+
+                    <Button
+                        android:id="@+id/increase_quantity"
+                        style="@style/IncreaseButton"
+                        android:text="@string/quantity_increase" />
+
+                    <Button
+                        android:id="@+id/decrease_quantity"
+                        style="@style/DecreaseButton"
+                        android:text="@string/quantity_decrease" />
+                </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
 
@@ -94,5 +109,10 @@
                     android:inputType="phone" />
             </LinearLayout>
         </LinearLayout>
+
+        <Button
+            android:id="@+id/order_button"
+            style="@style/OrderButton"
+            android:text="@string/order_button" />
     </LinearLayout>
 </ScrollView>
